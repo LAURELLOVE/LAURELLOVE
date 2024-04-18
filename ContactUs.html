@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me Page</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <script src="script.js"></script>   
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a  href="about.html">ABOUT</a>
+                </li>
+                <li>
+                    <a  href="ContactUs.html">CONTACT</a>
+                  </li>
+                  <li>
+                    <a  href="news.html">NEWS</a>
+                  </li>
+                  <li>
+                    <a  href="home.html">HOME</a>
+                  </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="Contact">
+        <div class="Container">
+           <h2 style="color: black;">CONTACT ME</h2>
+           <form action="/submit_form" method="post">
+               <label for="fname">First Name</label>
+               <input type="text" id="fname" name="Firstname" placeholder="Your Name....">
+
+               <label for="lname">Last Name</label>
+               <input type="text" id="lname" name="LastName" placeholder="Your  last Name....">
+
+               <label for="Email">Email</label>
+               <input type="text" id="email" name="Email" placeholder="Your Email....">
+
+
+               <label for="massage">Massage</label>
+               <textarea id="message" name="message" placeholder="Write Something...." style="height: 200px;">
+                   </textarea>
+                   <input type="submit" value="submit">
+           </form>
+           
+
+           
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+    Name: <input type="text" name="fname">
+    <input type="submit" value="Submit">
+  </form>
+  
+       </section>
+    <footer> <div class="footer-bottom">
+        © [Year] [Your Name] | All Rights Reserved
+      </div></footer>
+</body>
+</html>
